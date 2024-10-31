@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <UserSecretsId>40ad0010-3927-4cef-99f9-cbdf78d4452f</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.CognitiveServices.Speech" Version="1.41.1"/>
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+    </ItemGroup>
+
+</Project>
